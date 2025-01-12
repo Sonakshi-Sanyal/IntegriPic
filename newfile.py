@@ -30,9 +30,9 @@ with col3:
 with col4:
     #st.image("C:\Users\Lenovo\Documents\Sonakshi\Python\Academy\catai.png")
 
-#with tab2:
- #   st.header("A dog")
-  #  st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+with tab2:
+   st.header("A dog")
+   st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
 with tab3:
    # file2=st.file_uploader("Upload img")
 
