@@ -20,7 +20,7 @@ with col1:
 
 with col2:
     st.image("https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg")
-    st.image("C:\Users\Lenovo\Documents\Sonakshi\Python\Academy\Test images to detect before\catai")
+    st.image("C:/Users/Lenovo/Documents/Sonakshi/Python/Academy/Test images to detect before/catai")
 with tab2:
     st.header("A dog")
     st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
