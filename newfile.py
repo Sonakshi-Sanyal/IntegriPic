@@ -22,14 +22,12 @@ with col1:
 
 with col2:
     st.image("https:/news.ubc.ca/wp-content/uploads/2023/08/AdobeStock_559145847.jpeg")
-    
-#    st.image("C:/Users/Lenovo/Documents/Sonakshi/Python/Academy/catai.png")
 
 with col3:
     st.image("https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg")
 with col4:
     st.image("https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg")
-#   st.image("C:\Users\Lenovo\Documents\Sonakshi\Python\Academy\catai.png")
+
 
 with tab2:
     st.header("A dog")
