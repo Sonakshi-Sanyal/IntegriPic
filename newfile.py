@@ -18,8 +18,6 @@ with col1:
     file=st.file_uploader("Upload ig")
     
 
-
-
 with col2:
     st.image("https:/news.ubc.ca/wp-content/uploads/2023/08/AdobeStock_559145847.jpeg")
 
@@ -33,7 +31,7 @@ with tab2:
     st.header("A dog")
     st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
 with tab3:
-   # file2=st.file_uploader("Upload img")
+    file2=st.file_uploader("Upload img")
 
 
 
