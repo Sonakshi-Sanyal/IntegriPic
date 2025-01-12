@@ -21,7 +21,7 @@ with col1:
 
 
 with col2:
-    st.image("https://news.ubc.ca/wp-content/uploads/2023/08/AdobeStock_559145847.jpeg")
+    st.image("https:/news.ubc.ca/wp-content/uploads/2023/08/AdobeStock_559145847.jpeg")
     
     st.image("C:/Users/Lenovo/Documents/Sonakshi/Python/Academy/catai.png")
 
