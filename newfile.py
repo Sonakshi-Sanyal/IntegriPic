@@ -8,7 +8,7 @@ tab1, tab2, tab3 = st.tabs(["Home", "About Us", "Upload Image"])
 with tab1:
     st.header("Home Page")
     col1, col2 = st.columns(2)
-    col1.0, col2.0 = st.columns(2)
+    col3, col4 = st.columns(2)
 
 with col1: 
     st.header("STOP PIRATED PICTURES!!! ")
@@ -25,9 +25,9 @@ with col2:
     
     #st.image("C:/Users/Lenovo/Documents/Sonakshi/Python/Academy/Test images to detect before/catai")
 
-with col1.0:
+with col3:
     st.image("https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg")
-with col2.0:
+with col4:
     st.image("https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg")
 
 with tab2:
