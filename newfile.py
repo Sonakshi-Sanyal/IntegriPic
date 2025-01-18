@@ -6,7 +6,7 @@ from PIL import Image
 def models():
     mod = YOLO('best.pt')
     return mod
-    st.set_page_config(layout="wide")
+st.set_page_config(layout="wide")
 st.title("IntegriPic")
     
 
