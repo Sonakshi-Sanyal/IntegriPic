@@ -17,7 +17,7 @@ with col1:
     st.button("Submit")
     file=st.file_uploader("Upload ig")   
 
-with col2:
+#with col2:
     # st.image("https:/news.ubc.ca/wp-content/uploads/2023/08/AdobeStock_559145847.jpeg")
 
 with col3:
