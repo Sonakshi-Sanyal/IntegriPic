@@ -6,10 +6,9 @@ from PIL import Image
 def models():
     mod = YOLO('best.pt')
     return mod
-    
-
-st.title("IntegriPic")
     st.set_page_config(layout="wide")
+st.title("IntegriPic")
+    
 
 tab1, tab2, tab3 = st.tabs(["Home", "About Us", "Upload Image"])
 with tab1:
