@@ -7,6 +7,8 @@ def models():
     mod = YOLO('best.pt')
     return mod
     
+
+st.title("IntegriPic")
 # Image uploader and analyze button
 with st.container():
     img = st.file_uploader('Upload your image', type=['jpg', 'png', 'jpeg'])
@@ -24,8 +26,7 @@ with st.container():
             conf = conf.tolist()
             st.write('Detected: ' + str(res[0].names[label[0]].title()))        
             st.write('Confidence level: ' + str(conf[0]))
-#st.set_page_config(layout="wide")
-st.title("IntegriPic")
+            st.set_page_config(layout="wide")
 
 
 tab1, tab2, tab3 = st.tabs(["Home", "About Us", "Upload Image"])
