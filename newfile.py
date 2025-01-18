@@ -24,7 +24,7 @@ with st.container():
             conf = conf.tolist()
             st.write('Detected: ' + str(res[0].names[label[0]].title()))        
             st.write('Confidence level: ' + str(conf[0]))
-st.set_page_config(layout="wide")
+#st.set_page_config(layout="wide")
 st.title("IntegriPic")
 
 
