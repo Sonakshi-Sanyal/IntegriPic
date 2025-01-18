@@ -9,7 +9,23 @@ def models():
     
 
 st.title("IntegriPic")
-# Image uploader and analyze button
+
+            st.set_page_config(layout="wide")
+
+
+tab1, tab2, tab3 = st.tabs(["Home", "About Us", "Upload Image"])
+with tab1:
+    st.header("Home Page")
+    col1, col2 = st.columns(2)
+    col3, col4 = st.columns(2)
+
+with col1: 
+    st.header("STOP PIRATED PICTURES!!! ")
+#   st.header("_Streamlit_ is :blue[cool] :smile:")
+    st.write("Reality or illusion? Know the difference. Authentic images reflect truth, while AI-generated ones deceive. Don't be fooled – verify the source, demand transparency, and seek the truth.")
+    st.button("Submit")
+    file=st.file_uploader("Upload ig") 
+    # Image uploader and analyze button
 with st.container():
     img = st.file_uploader('Upload your image', type=['jpg', 'png', 'jpeg'])
     analyse = st.button('Analyze')
@@ -26,21 +42,6 @@ with st.container():
             conf = conf.tolist()
             st.write('Detected: ' + str(res[0].names[label[0]].title()))        
             st.write('Confidence level: ' + str(conf[0]))
-            st.set_page_config(layout="wide")
-
-
-tab1, tab2, tab3 = st.tabs(["Home", "About Us", "Upload Image"])
-with tab1:
-    st.header("Home Page")
-    col1, col2 = st.columns(2)
-    col3, col4 = st.columns(2)
-
-with col1: 
-    st.header("STOP PIRATED PICTURES!!! ")
-#   st.header("_Streamlit_ is :blue[cool] :smile:")
-    st.write("Reality or illusion? Know the difference. Authentic images reflect truth, while AI-generated ones deceive. Don't be fooled – verify the source, demand transparency, and seek the truth.")
-    st.button("Submit")
-    file=st.file_uploader("Upload ig")   
 
 #with col2:
     # st.image("https:/news.ubc.ca/wp-content/uploads/2023/08/AdobeStock_559145847.jpeg")
