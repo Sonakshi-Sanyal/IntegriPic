@@ -10,9 +10,6 @@ def models():
 
 st.title("IntegriPic")
 
-            st.set_page_config(layout="wide")
-
-
 tab1, tab2, tab3 = st.tabs(["Home", "About Us", "Upload Image"])
 with tab1:
     st.header("Home Page")
@@ -42,6 +39,8 @@ with st.container():
             conf = conf.tolist()
             st.write('Detected: ' + str(res[0].names[label[0]].title()))        
             st.write('Confidence level: ' + str(conf[0]))
+
+            st.set_page_config(layout="wide")
 
 #with col2:
     # st.image("https:/news.ubc.ca/wp-content/uploads/2023/08/AdobeStock_559145847.jpeg")
