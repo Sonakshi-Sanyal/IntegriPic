@@ -48,7 +48,7 @@ with st.container():
 #     st.image("https:/news.ubc.ca/wp-content/uploads/2023/08/AdobeStock_559145847.jpeg")
 
 with col3:
-    st.image("https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg", caption="AI Generated Cat", width=500)
+    st.image("https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg", caption="AI Generated Cat", width=500, use_container_width=False)
 with col4:
     st.image("catai.png", caption="Real Image of Cat", width=500, use_container_width=False)
 
