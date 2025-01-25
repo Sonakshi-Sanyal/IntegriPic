@@ -43,12 +43,12 @@ with st.container():
             st.write('Confidence level: ' + str(conf[0]))
 
 
-with col2:
-    st.image("itry.jpeg")
+#with col2:
+    #st.image("itry.jpeg")
 
 with col3:
     st.image("https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg", caption="Real Image of Cat", width=500, use_container_width=False)
-    st.image("https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg", caption="Real Image of Cat", width=500, use_container_width=False)
+    st.image("itry.jpeg", width=500, use_container_width=False)
 with col4:
     st.image("catai.png", caption="AI Generated Cat", width=500, use_container_width=False)
 
