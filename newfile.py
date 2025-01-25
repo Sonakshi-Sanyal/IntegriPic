@@ -66,8 +66,7 @@ with tab2:
     st.header("How does IntegriPic work?")
     st.header("Key points about how AI image detectors function:")
     st.header("Machine Learning:")
-    st.write("IntegriPic uses machine learning algorithms trained on large datasets of both real and AI-generated images to identify patterns that distinguish between the two. 
-    
+    st.write("IntegriPic uses machine learning algorithms trained on large datasets of both real and AI-generated images to identify patterns that distinguish between the two.")
 with tab3:
     st.header("Upload your image here!")
     st.write("Upload your image by brwosing an image file (JPEG, PNG) and submit the Upload button. Your image will be displayed infront of you.")
