@@ -7,9 +7,10 @@ def models():
     mod = YOLO('best.pt')
     return mod
 st.set_page_config(layout="wide")
+col5, col6 = st.columns(2)
 col1, col2 = st.columns(2)
 col3, col4 = st.columns(2)
-col5, col6 = st.columns(2)
+
 with col5:
     st.image("logo-rebovebg-preview.png")
 with col6:
