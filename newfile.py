@@ -7,6 +7,7 @@ def models():
     mod = YOLO('best.pt')
     return mod
 st.set_page_config(layout="wide")
+st.image("logo-rebovebg-preview.png")
 st.title("IntegriPic")
     
 
