@@ -67,6 +67,15 @@ with tab2:
     st.header("Technology IntegriPic uses to detect Images")
     st.header("Machine Learning:")
     st.write("IntegriPic uses machine learning algorithms trained on large datasets of both real and AI-generated images to identify patterns that distinguish between the two.")
+    st.header("Pixel Analysis:")
+    st.write("The detector examines the pixel arrangement within an image, looking for anomalies like unnatural gradients, sharp edges, or repetitive patterns that might indicate AI generation.")
+    st.header("Feature Extraction:")
+    st.write("It extracts specific features from an image like texture, color distribution, and edge sharpness to analyze if they align with typical characteristics of AI-generated images.")
+    st.header("Comparison to Training Data:")
+    st.write("The extracted features are compared to the detector's training data to determine the likelihood of the image being AI-generated.")
+    st.header("Machine Learning:")
+    st.write("")
+    
 with tab3:
     st.header("Upload your image here!")
     st.write("Upload your image by brwosing an image file (JPEG, PNG) and submit the Upload button. Your image will be displayed infront of you.")
