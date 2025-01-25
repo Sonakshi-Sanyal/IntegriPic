@@ -10,6 +10,9 @@ st.set_page_config(layout="wide")
 st.title("IntegriPic")
 tab1, tab2, tab3 = st.tabs(["Home", "About Us", "Upload Image"])
 with tab1:
+    #col5, col6 = st.columns(2)
+    col1, col2 = st.columns(2)
+    col3, col4 = st.columns(2)
     st.header("Welcome to IntegriPic!")
     st.header("STOP PIRATED PICTURES!!! ")
     with col1: 
@@ -46,9 +49,7 @@ with tab1:
     with col4:
         st.image("catai.png", caption="AI Generated Cat", width=500, use_container_width=False)
 
-#col5, col6 = st.columns(2)
-col1, col2 = st.columns(2)
-col3, col4 = st.columns(2)
+
 
 
 #with col5:
