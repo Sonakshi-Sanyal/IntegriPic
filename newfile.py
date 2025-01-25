@@ -12,14 +12,16 @@ st.title("IntegriPic")
 
 tab1, tab2, tab3 = st.tabs(["Home", "About Us", "Upload Image"])
 with tab1:
-    st.header("Home Page")
+    st.header("Welcome to IntegriPic!")
+    st.header("STOP PIRATED PICTURES!!! ")
+    st.write("Reality or illusion? Know the difference. Authentic images reflect truth, while AI-generated ones deceive. Don't be fooled – verify the source, demand transparency, and seek the truth.")
+    
     col1, col2 = st.columns(2)
     col3, col4 = st.columns(2)
 
 with col1: 
-    st.header("STOP PIRATED PICTURES!!! ")
+    
 #   st.header("_Streamlit_ is :blue[cool] :smile:")
-    st.write("Reality or illusion? Know the difference. Authentic images reflect truth, while AI-generated ones deceive. Don't be fooled – verify the source, demand transparency, and seek the truth.")
     
     #file=st.file_uploader("Upload ig") 
     # Image uploader and analyze button
