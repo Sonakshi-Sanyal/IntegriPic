@@ -15,13 +15,13 @@ with tab1:
     with col1: 
     
 #   st.header("_Streamlit_ is :blue[cool] :smile:")
-    st.write("Reality or illusion? Know the difference. Authentic images reflect truth, while AI-generated ones deceive. Don't be fooled – verify the source, demand transparency, and seek the truth.")
+        st.write("Reality or illusion? Know the difference. Authentic images reflect truth, while AI-generated ones deceive. Don't be fooled – verify the source, demand transparency, and seek the truth.")
     
     #file=st.file_uploader("Upload ig") 
     # Image uploader and analyze button
-with st.container():
-    img = st.file_uploader('Upload your image', type=['jpg', 'png', 'jpeg'])
-    analyse = st.button('Analyze')
+    with st.container():
+        img = st.file_uploader('Upload your image', type=['jpg', 'png', 'jpeg'])
+        analyse = st.button('Analyze')
 
     if analyse:
         if img is not None:
@@ -40,11 +40,11 @@ with st.container():
 #with col2:
     #st.image("itry.jpeg")
 
-with col3:
-    st.image("https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg", caption="Real Image of Cat", width=500, use_container_width=False)
-    st.image("itry.jpeg", width=500, use_container_width=False)
-with col4:
-    st.image("catai.png", caption="AI Generated Cat", width=500, use_container_width=False)
+    with col3:
+        st.image("https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg", caption="Real Image of Cat", width=500, use_container_width=False)
+        st.image("itry.jpeg", width=500, use_container_width=False)
+    with col4:
+        st.image("catai.png", caption="AI Generated Cat", width=500, use_container_width=False)
 
 #col5, col6 = st.columns(2)
 col1, col2 = st.columns(2)
