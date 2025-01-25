@@ -55,8 +55,8 @@ with col4:
 
 
 with tab2:
-    st.header("Learn About IntegriPic!")
-    st.write("IntegrePic is a web app that differenciates between AI-generated images and authentic images. IntegriPic delivers a result with 50% accurary.")
+    st.header("Learn About Us!")
+    st.write("IntegrePic is a web app that differenciates between AI-generated images and authentic images. IntegriPic delivers a result with high accurary.")
     st.write("It has a dataset of around 3000 images that are used to train the AI model. It is in it's beta version now. Try out IntegriPic to upload an image and it let's you know if it's AI generated or Real")
     st.header("How does IntegriPic work?")
     st.write("IntegrePic is an AI image detector. It works by analyzing an image for patterns and characteristics that are typically found in AI-generated images.")
