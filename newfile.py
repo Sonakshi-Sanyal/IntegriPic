@@ -20,8 +20,8 @@ with col1:
     st.header("STOP PIRATED PICTURES!!! ")
 #   st.header("_Streamlit_ is :blue[cool] :smile:")
     st.write("Reality or illusion? Know the difference. Authentic images reflect truth, while AI-generated ones deceive. Don't be fooled – verify the source, demand transparency, and seek the truth.")
-    st.button("Submit")
-    file=st.file_uploader("Upload ig") 
+    
+    #file=st.file_uploader("Upload ig") 
     # Image uploader and analyze button
 with st.container():
     img = st.file_uploader('Upload your image', type=['jpg', 'png', 'jpeg'])
