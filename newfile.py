@@ -48,9 +48,9 @@ with st.container():
 #     st.image("https:/news.ubc.ca/wp-content/uploads/2023/08/AdobeStock_559145847.jpeg")
 
 with col3:
-    st.image("https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg", width=500, height=800)
+    st.image("https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg", width=600)
 with col4:
-    st.image("catai.png", width=500, height=800)
+    st.image("catai.png", width=600)
 
 
 with tab2:
