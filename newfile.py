@@ -55,6 +55,11 @@ with col4:
 
 
 with tab2:
+    st.header("Learn About IntegriPic!")
+    st.header("STOP PIRATED PICTURES!!! ")
+    st.write("IntegrePic is a web app that differenciates between AI-generated images and authentic images. IntegriPic delivers a result with 50% accurary.")
+    st.write("It has a dataset of around 3000 images that are used to train the AI model. It is in it's beta version now. Try out IntegriPic to upload an image and it let's you know if it's AI generated or Real")
+    
     st.header("A dog")
     st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
 with tab3:
