@@ -10,11 +10,12 @@ st.set_page_config(layout="wide")
 #col5, col6 = st.columns(2)
 col1, col2 = st.columns(2)
 col3, col4 = st.columns(2)
+st.title("IntegriPic")
 
 #with col5:
     #st.image("logo-rebovebg-preview.png")
 #with col6:
-st.title("IntegriPic")
+
     
 
 tab1, tab2, tab3 = st.tabs(["Home", "About Us", "Upload Image"])
