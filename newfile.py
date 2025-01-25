@@ -67,7 +67,7 @@ with tab3:
     st.header("Upload your image here!")
     st.write("Upload your image by brwosing an image file (JPEG, PNG) and submit the Upload button. Your image will be displayed infront of you.")
     st.write("Now submit the Analyze button.")
-    file2=st.file_uploader("Upload img")
+    #file2=st.file_uploader("Upload img")
 
 
 
