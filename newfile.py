@@ -44,7 +44,7 @@ with st.container():
 
 
 with col2:
-    st.image("cool.jpeg")
+    st.image("itry.jpeg")
 
 with col3:
     st.image("https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg", caption="Real Image of Cat", width=500, use_container_width=False)
