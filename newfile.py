@@ -64,7 +64,7 @@ with tab2:
     st.write("Essentially, they learn to identify the telltale signs of AI-created imagery by analyzing pixel data and identifying irregularities that would not naturally occur in a real photograph.")
     #st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
     st.header("How does IntegriPic work?")
-    st.header("Key points about how AI image detectors function:")
+    st.header("Technology IntegriPic uses to detect Images")
     st.header("Machine Learning:")
     st.write("IntegriPic uses machine learning algorithms trained on large datasets of both real and AI-generated images to identify patterns that distinguish between the two.")
 with tab3:
