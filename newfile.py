@@ -13,12 +13,6 @@ st.title("IntegriPic")
 #tabs = st.tabs(allTabs)
 
 tab1, tab2, tab3 = st.tabs(["Home", "About Us", "Upload Image"])
-with tab1:
-    st.write('Meow' + ' meow'*100)
-with tab2:
-    st.write('Woof' + ' woof'*100)
-with tab3:
-    st.write('Tweet' + ' tweet'*100)
 
 css = '''
 <style>
