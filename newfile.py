@@ -8,7 +8,28 @@ def models():
     return mod
 st.set_page_config(layout="wide")
 st.title("IntegriPic")
+
+#allTabs = ["Home", "About Us", "Upload Image"]
+#tabs = st.tabs(allTabs)
+
 tab1, tab2, tab3 = st.tabs(["Home", "About Us", "Upload Image"])
+with tab1:
+    st.write('Meow' + ' meow'*100)
+with tab2:
+    st.write('Woof' + ' woof'*100)
+with tab3:
+    st.write('Tweet' + ' tweet'*100)
+
+css = '''
+<style>
+    .stTabs [data-baseweb="tab-list"] button [data-testid="stMarkdownContainer"] p {
+    font-size:2rem;
+    }
+</style>
+'''
+
+st.markdown(css, unsafe_allow_html=True)
+
 with tab1:
     st.header("Welcome to IntegriPic!")
     st.header("STOP PIRATED PICTURES!!! ")
